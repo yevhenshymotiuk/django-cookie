@@ -2,4 +2,7 @@
 media/
 .env
 
+Pipfile.lock
+
 node_modules/
+package-lock.json
