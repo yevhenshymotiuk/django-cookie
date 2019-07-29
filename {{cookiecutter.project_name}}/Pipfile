@@ -10,6 +10,7 @@ django = "*"
 python-dotenv = "*"
 psycopg2 = "*"
 sphinx = "*"
+coverage = "*"
 
 [requires]
 python_version = "3.7"

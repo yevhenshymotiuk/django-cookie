@@ -12,7 +12,7 @@ django.setup()
 
 # -- Project information -----------------------------------------------------
 
-project = {{cookiecutter.project_name}}
+project = '{{cookiecutter.project_name}}'
 copyright = ''
 author = ''
 
