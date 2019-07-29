@@ -6,6 +6,6 @@
 - base template
 - dev/prod settings
 - gitignore
-- ansible
+- Ansible
 - Makefile
 - Sphinx docs
