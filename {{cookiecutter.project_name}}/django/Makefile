@@ -1,3 +1,5 @@
+.PHONY: docs
+
 help:
 	@echo "test - run tests"
 	@echo "coverage - generate a coverage HTML report and open it"
