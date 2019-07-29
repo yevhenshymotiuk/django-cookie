@@ -15,9 +15,8 @@ coverage:
 	xdg-open htmlcov/index.html
 
 docs:
-	cd docs
-	make html
-	xdg-open build/html/index.html
+	cd docs && make html
+	xdg-open docs/build/html/index.html
 
 deploy:
 	ansible-playbook ansible/playbook.yml --inventory=ansible/inventory.yml
