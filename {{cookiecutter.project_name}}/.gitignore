@@ -1,5 +1,7 @@
+__pycache__
 *.sqlite*
 media/
+
 .env
 
 Pipfile.lock
