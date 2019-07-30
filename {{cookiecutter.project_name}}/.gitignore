@@ -1,13 +1,14 @@
+# django
 __pycache__/
 *.sqlite*
 media/
 
+# environment variables
 .env
 
-Pipfile.lock
-
+# ansible
 inventory
 playbook.retry
 
+# webpack
 node_modules/
-package-lock.json
