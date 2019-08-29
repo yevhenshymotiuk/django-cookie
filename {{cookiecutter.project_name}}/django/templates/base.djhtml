@@ -24,7 +24,7 @@
 
             <!-- Navbar title -->
             <a
-                class="navbar-brand text-dark mr-5"
+                class="navbar-brand text-dark"
                 href="{% url 'admin:login' %}">
                 {% include 'title.djhtml' %}
             </a>
@@ -58,18 +58,17 @@
             </button>
 
             <!-- Search collapse div -->
-            <div class="container">
             <div
-                class="collapse navbar-collapse ml-5"
+                class="collapse navbar-collapse"
                 id="navbarSearch">
                 <hr/>
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item mx-auto">
+                <ul class="navbar-nav mr-auto w-100">
+                    <li class="nav-item">
                         <form
                             class="form-inline"
                             method="GET"
                             action="{% url 'admin:login' %}">
-                            <div class="input-group">
+                            <div class="input-group w-100">
                                 <input
                                     class="form-control"
                                     type="search"
@@ -88,7 +87,6 @@
                         </form>
                     </li>
                 </ul>
-            </div>
             </div>
 
             {% if user.is_authenticated %}
