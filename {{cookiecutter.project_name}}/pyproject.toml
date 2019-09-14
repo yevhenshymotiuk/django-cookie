@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "project_name" # "{{cookiecutter.project_name}}"
+name = "{{cookiecutter.project_name}}"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
@@ -14,7 +14,7 @@ coverage = "*"
 django-crispy-forms = "*"
 django-extensions = "*"
 pillow = "*"
-gunicorn = "^19.9"
+gunicorn = "*"
 
 [tool.poetry.dev-dependencies]
 

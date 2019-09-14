@@ -13,4 +13,6 @@ playbook.retry
 # webpack
 node_modules/
 
+# locks
 package-lock.json
+*.lock
