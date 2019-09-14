@@ -1,8 +1,8 @@
 ---
 - hosts: all
   vars:
-    project_name: {{cookiecutter.project_name}}
-    repo_name: # <Your github repo name>
+    project_name: # Your project name
+    repo_name: # Your github repo name
   tasks:
   - name: Dependencies
     tags: apt
