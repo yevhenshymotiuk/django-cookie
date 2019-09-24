@@ -1,6 +1,6 @@
 # Django cookie
 
-- webpack
+- Webpack
 - base template
 - dev/prod settings
 - gitignore
