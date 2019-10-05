@@ -13,6 +13,12 @@ playbook.retry
 # webpack
 node_modules/
 
-# locks
-package-lock.json
-*.lock
+# coverage
+htmlcov/
+.coverage
+
+# docs build
+build/
+
+# static root
+static_root/
