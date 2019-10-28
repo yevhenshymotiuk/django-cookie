@@ -5,9 +5,10 @@ description = ""
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.6"
 django = "*"
 python-dotenv = "*"
+python-decouple = "*"
 psycopg2-binary = "*"
 sphinx = "*"
 coverage = "*"

@@ -12,6 +12,7 @@ playbook.retry
 
 # webpack
 node_modules/
+bundles/
 
 # coverage
 htmlcov/
@@ -22,3 +23,4 @@ build/
 
 # static root
 static_root/
+media/
